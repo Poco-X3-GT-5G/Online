@@ -1,13 +1,5 @@
 def X1():
     a1 = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
-    x1 = ";[FBAN/FB4A;FBAV/269.0.0.50.127;FBBV/212783074;FBDM/{density=1.2,width=886,height=1296};FBLC/es_ES;FBCR/Lucky;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A426U;FBSV/5.2.2;nullFBCA/armeabi-v7a:armeabi;]"
-    x2 = ";[FBAN/FB4A;FBAV/269.0.0.50.127;FBBV/212783074;FBDM/{density=1.4,width=754,height=1453};FBLC/es_ES;FBCR/GR COSMOTE;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A910F;FBSV/5.2.1;nullFBCA/armeabi-v7a:armeabi;]"
-    x3 = ";[FBAN/FB4A;FBAV/269.0.0.50.127;FBBV/212783074;FBDM/{density=1.5,width=816,height=1332};FBLC/fr_FR;FBCR/Movil GSM ;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A205GN;FBSV/7.1.2;nullFBCA/armeabi-v7a:armeabi;]"
-    x4 = ";[FBAN/FB4A;FBAV/269.0.0.50.127;FBBV/212783074;FBDM/{density=1.1,width=994,height=1292};FBLC/pt_BR;FBCR/ONO;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A810F;FBSV/7.1.2;nullFBCA/armeabi-v7a:armeabi;]"
-    x5 = ";[FBAN/FB4A;FBAV/269.0.0.50.127;FBBV/212783074;FBDM/{density=2.1,width=885,height=1369};FBLC/en_US;FBCR/iD;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A505GN;FBSV/4.2.1;nullFBCA/armeabi-v7a:armeabi;]"
-    x6 = ";[FBAN/FB4A;FBAV/269.0.0.50.127;FBBV/212783074;FBDM/{density=2.5,width=879,height=1379};FBLC/en_US;FBCR/BITEL;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A115F;FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]"
-    x7 = ";[FBAN/FB4A;FBAV/269.0.0.50.127;FBBV/212783074;FBDM/{density=2.2,width=1005,height=1372};FBLC/es_ES;FBCR/Tesco Mobile;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A505GN;FBSV/7.1.2;nullFBCA/armeabi-v7a:armeabi;]"
-    x8 = ";[FBAN/FB4A;FBAV/269.0.0.50.127;FBBV/212783074;FBDM/{density=1.4,width=771,height=1479};FBLC/ar_AR;FBCR/BITEL;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A235F;FBSV/4.2.2;nullFBCA/armeabi-v7a:armeabi;]"
-    b1 = random.choice([x1,x2,x3,x4,x5,x6,x7,x8])
-    ua = a1+b1
+    a2 = ";FBAN/Orca-Android;FBAV/196.0.0.75;FBPN/com.facebook.orca;FBLC/en_US;FBBV/288441502;FBCR/TELKOMSEL;FBMF/TECNO;FBBD/TECNO;FBDV/TECNO KF8;FBSV/8.0.3;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;FBRV/688552711]"
+    ua = a1+a2
     return ua
