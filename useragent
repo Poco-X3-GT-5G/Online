@@ -1,5 +1,6 @@
 def X1():
-    a1 = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
-    a2 = ";[FBAN/Orca-Android;FBAV/196.0.0.78;FBPN/com.facebook.orca;FBLC/el_GR;FBBV/508886680;FBCR/Zong;FBMF/realme;FBBD/realme;FBDV/RMX2030;FBSV/12.2.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1344};FB_FW/1;FBRV/433909019]"
-    ua = a1+a2
+    dal = "Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
+    a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
+    b = ";[FBAN/FB4A;FBAV/196.0.0.61;FBBV/787895399;FBDM/{density=1.5,width=720,height=1280};FBLC/en_IN;FBRV/387109426;FBCR/Personal;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/23116PN5BC;FBSV/14.0;nullFBCA/armeabi-v7a:armeabi;]"
+    ua = a+b
     return ua
