@@ -1,17 +1,9 @@
 ugen=[]
 for xd in range(1000):
         rr = random.randint; rc = random.choice
-        oppo = (["CPH1979","CPH2385","CPH2583","CPH2048","CPH2603","CPH2261","CPH1979","CPH2385","CPH2617","CPH1869","CPH2611","CPH1869"])
-        redmi = (["Redmi Note 1","Redmi Note 2","Redmi Note 3","Redmi Note 4","Redmi Note 5","Redmi Note 6","Redmi Note 7","Redmi Note 8","Redmi Note 9","Redmi Note 10","Redmi Note 11","Redmi Note 12","Redmi Note 13"])
-        realme =  (["RMX3785","RMX3709","RMX3820","RMX3611","RMX3115","RMX3823","RMP2107","RMX3395","RMX3478","RMX3785"])
-        infinix = (["X676B", "X687", "X609", "X697", "X680D", "X507", "X605", "X668", "X6815B", "X624", "X655F", "X689C", "X608", "X698", "X682B", "X682C", "X688C", "X688B", "X658E", "X659B"])
-        samsung = (["SM-A013F","SM-A013G","SM-A013M","SM-A015F","SM-A015M","SM-A022F","SM-A022G","SM-A022M","SM-A025F","SM-A025G","SM-A025M","SM-A025U","SM-A032F"])
-        oppoua = f"Mozilla/5.0 (Linux; Android {str(rr(1,11))}; {str(rc(oppo))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(10,107))}.0.{str(rr(111,6666))}.{str(rr(10,400))} Mobile Safari/537.36"
-        redmiua = f"Mozilla/5.0 (Linux; Android {str(rr(1,11))}; {str(rc(redmi))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(10,107))}.0.{str(rr(111,6666))}.{str(rr(10,400))} Mobile Safari/537.36"
-        realmeua = f"Mozilla/5.0 (Linux; Android {str(rr(1,11))}; {str(rc(realme))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(10,107))}.0.{str(rr(111,6666))}.{str(rr(10,400))} Mobile Safari/537.36"
-        infinixua = f"Mozilla/5.0 (Linux; Android {str(rr(1,11))}; {str(rc(infinix))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(10,107))}.0.{str(rr(111,6666))}.{str(rr(10,400))} Mobile Safari/537.36"
-        samsungua = f"Mozilla/5.0 (Linux; Android {str(rr(1,11))}; {str(rc(samsung))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(10,107))}.0.{str(rr(111,6666))}.{str(rr(10,400))} Mobile Safari/537.36"
-        toxic = random.choice([oppoua, redmiua,realmeua, infinixua, samsungua,])
+        redmi = (["Redmi Note 9","Redmi Note 10","Redmi Note 11"])
+        redmiua = f"Mozilla/5.0 (Linux; Android {str(rr(9,10))}; {str(rc(redmi))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(10,107))}.0.{str(rr(111,6666))}.{str(rr(10,400))} Mobile Safari/537.36"
+        toxic = random.choice([redmiua])
         ugen.append(toxic)
 
 def X1():
