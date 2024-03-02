@@ -1,0 +1,2 @@
+def Paid():
+    paid = Free_Menu_Nimra()
