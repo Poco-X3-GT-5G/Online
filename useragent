@@ -24,6 +24,6 @@ for xd in range(1000):
 def X1():
     dal = "Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
     a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
-    b = ";[FBAN/FB4A;FBAV/75.0.0.39.59;FBBV/525089766;FBDM/{density=2.0,width=1080,height=2400};FBLC/en_US;FBRV/564541635;FBCR/Verizon;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A528B;FBSV/11.0;FBOP/1;FBCA/armeabi-v7a;]"
+    b = ";[FBAN/FB4A;FBAV/196.0.0.67;FBBV/787895399;FBDM/{density=2.0,width=1220,height=2712};FBLC/en_IN;FBRV/387109426;FBCR/Movistar Argentina;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/2312DRA50C;FBSV/13.0;nullFBCA/armeabi-v7a:armeabi;]"
     ua = a+b
     return ua
