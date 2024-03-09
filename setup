@@ -1,2 +1,4 @@
 def Paid():
     paid = Free_Menu_Nimra()
+def Paidd():
+    paid = Free_Menu_Johnny()
