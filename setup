@@ -1,4 +1,4 @@
 def Paid():
     paid = Free_Menu_Nimra()
 def Paid1():
-    paid = Free_Menu_Johnny()
+    paid = Active_Key()
